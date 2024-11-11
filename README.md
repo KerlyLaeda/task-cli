@@ -13,12 +13,15 @@ A simple [command-line application](https://roadmap.sh/projects/task-tracker) to
 
 
 ## Getting Started
-1. Clone the repository\
-```git clone https://github.com/KerlyLaeda/task-cli.git```
-2. Navigate to project directory\
-```cd task-cli```
-3. Run the application\
-```task-cli <command> <params>```
+Clone the repository
+
+    git clone https://github.com/KerlyLaeda/task-cli.git
+Navigate to project directory
+
+    cd task-cli
+Run the application
+
+    task-cli <command> <params>
 
 ## Prerequisites
 - [Python 3.x](https://www.python.org/downloads/)
@@ -26,27 +29,31 @@ A simple [command-line application](https://roadmap.sh/projects/task-tracker) to
 
 ## Usage
 ### Adding a New Task
-Add a task by specifying the description:\
-```task-cli add <description>```\
-```# Output: Task added successfully (ID: 1)```
+Add a task by specifying the description:
+    
+    task-cli add <description>
+    # Output: Task added successfully (ID: 1)
 
 ### Updating and Deleting Tasks
-Update or delete tasks by specifying the task ID:\
-```task-cli update <task-id> <updated_description>```\
-```task-cli delete <task-id>```
+Update or delete tasks by specifying the task ID:
+
+    task-cli update <task-id> <updated_description>
+    task-cli delete <task-id>
 
 ### Changing Task Status
-Mark a task as in progress, done, or reset to todo:\
-```task-cli mark-in-progress <task-id>```\
-```task-cli mark-done <task-id>```\
-```task-cli mark-todo <task-id>```
+Mark a task as in progress, done, or reset to todo:
+
+    task-cli mark-in-progress <task-id>
+    task-cli mark-done <task-id>
+    task-cli mark-todo <task-id>
 
 ### Listing Tasks
-List all tasks or filter by status:\
-```task-cli list```\
-```task-cli list done```\
-```task-cli list todo```\
-```task-cli list in-progress```
+List all tasks or filter by status:
+
+    task-cli list
+    task-cli list done
+    task-cli list todo
+    task-cli list in-progress
 
 ## Features
 - **Add, Update, and Delete Tasks**: Easily manage your tasks.
